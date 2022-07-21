@@ -125,9 +125,6 @@ img {
   margin-right: 10px;
   fill: inherit;
 }
-.envelope-icon:hover {
-}
-
 .header-contacts.list {
   gap: 50px;
 }
@@ -214,7 +211,8 @@ img {
   background-repeat: no-repeat;
   margin-bottom: 30px;
 }
-.features-item:hover::before {
+.features-item:hover::before,
+.features-item:focus::before {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
 }
@@ -318,7 +316,8 @@ img {
   align-items: center;
   justify-content: center;
 }
-.team-icon.link:hover {
+.team-icon.link:hover,
+.team-icon.link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
@@ -352,7 +351,8 @@ img {
 .clients-link.link {
   fill: #afb1b8;
 }
-.clients-link.link:hover {
+.clients-link.link:hover,
+.clients-link.link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -507,7 +507,8 @@ img {
   margin-bottom: 30px;
   min-width: 370px;
 }
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .portfolio-list-item:nth-child(3n + 3) {
