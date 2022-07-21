@@ -326,22 +326,20 @@ img {
 
 /*Clients list*/
 
-.clients.container {
+.clients {
   background-color: var(--light-bkg);
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients-list {
+.clients-list.list {
   display: flex;
   gap: 30px;
 }
-.clients-item {
-}
+
 .clients-icon {
   width: 106px;
 }
-.clients-link.link {
-  fill: #afb1b8;
+.clients-item {
   max-width: 170px;
   max-height: 92px;
   border: 1px solid #afb1b8;
@@ -350,6 +348,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.clients-link.link {
+  fill: #afb1b8;
 }
 .clients-link.link:hover {
   fill: var(--accent-color);
