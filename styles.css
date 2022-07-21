@@ -139,6 +139,8 @@ img {
   max-width: 1600px;
   text-align: center;
   padding: 200px 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title {
   font-weight: 900;
@@ -337,19 +339,19 @@ img {
 
 .clients-icon {
   width: 106px;
+  height: 60px;
 }
-.clients-item {
-  max-width: 170px;
-  max-height: 92px;
+
+.clients-link.link {
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 16px 32px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.clients-link.link {
-  fill: #afb1b8;
 }
 .clients-link.link:hover,
 .clients-link.link:focus {
